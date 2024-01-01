@@ -13,7 +13,7 @@ const TextAnimation = () => {
         'Progrmmer',
         1500
       ]}
-      speed={50}
+      speed={70}
       className='text-[2rem] md:text-[3rem] text-white font-bold uppercase'
       repeat={Infinity}
     />
