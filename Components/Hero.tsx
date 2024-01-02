@@ -7,6 +7,7 @@ const Hero = () => {
 
 
     const onButtonClick = () => {
+
         const pdfUrl = "CvMouradZerzkhane.pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
@@ -14,7 +15,8 @@ const Hero = () => {
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-    };
+
+    }
 
     return (
         <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">

@@ -1,3 +1,4 @@
+import About from '@/Components/About'
 import Hero from '@/Components/Hero'
 import MobileNavbar from '@/Components/MobileNavbar'
 import Navbar from '@/Components/Navbar'
@@ -14,6 +15,9 @@ const HomePage = () => {
       <MobileNavbar closeNav={closeNavMobile} nav={navMobile}/>
       <Navbar openNav={openNavMobile} />
       <Hero/>
+      <div className='relative z-30'>
+        <About/>
+      </div>
 
 
     </div>
