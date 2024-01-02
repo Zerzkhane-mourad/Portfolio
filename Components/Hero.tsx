@@ -19,7 +19,7 @@ const Hero = () => {
     }
 
     return (
-        <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
+        <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center mt-[10vh] ">
             <Particle />
             <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
                 <div>
@@ -28,7 +28,7 @@ const Hero = () => {
                     </h1>
                     <TextAnimation />
                     <p className="mt-[2rem] text-[20px] text-[#ffffff92] ">
-                        Passionate Fullstack JavaScript Developer proficient in modern frameworks and libraries, crafting innovative solutions for seamless web development. Check out my portfolio showcasing dynamic front-end designs and robust back-end systems.
+                        Fullstack JavaScript Developer proficient in modern frameworks and libraries, crafting innovative solutions for seamless web development. Check out my portfolio showcasing dynamic front-end designs and robust back-end systems.
                     </p>
                     <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
                         <button onClick={onButtonClick} className="flex items-center space-x-2  px-[2rem] hover:bg-yellow-500 transition-all  duration-200 py-[1rem] text-[18px] text-black font-bold bg-slate-600 ">
