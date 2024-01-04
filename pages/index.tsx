@@ -3,6 +3,7 @@ import Hero from '@/Components/Hero'
 import MobileNavbar from '@/Components/MobileNavbar'
 import Navbar from '@/Components/Navbar'
 import Services from '@/Components/Services'
+import Skills from '@/Components/Skills'
 import { useState } from 'react'
 
 const HomePage = () => {
@@ -21,6 +22,7 @@ const HomePage = () => {
         <About/>
       </div>
       <Services/>
+      <Skills/>
 
     </div>
   )

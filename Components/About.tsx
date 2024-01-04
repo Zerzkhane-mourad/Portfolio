@@ -13,16 +13,18 @@ const About = () => {
                     </h2>
                     <div className='mb-[3rem] flex items-center md:space-x-10'>
                         <span className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
-                    <p className='text-[19px] text-slate-300 w-[80%]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi ex recusandae neque deleniti? Error laborum, officiis quasi earum nemo magni doloremque et.</p>
+                        <p className='text-[19px] text-slate-300 w-[80%]'>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi ex recusandae neque deleniti? Error laborum, officiis quasi earum nemo magni doloremque et.
+                        </p>
                     </div>
                 </div>
                 <div className='lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative'>
                     <Image
-                    src="/images/about.jpg"
-                    alt='user'
-                    layout='fill'
-                    objectFit='contain'
-                    className='relative z-[11] w-[100%] h-[100%] object-contain'
+                        src="/images/about.jpg"
+                        alt='user'
+                        layout='fill'
+                        objectFit='contain'
+                        className='relative z-[11] w-[100%] h-[100%] object-contain'
                     />
                 </div>
             </div>
