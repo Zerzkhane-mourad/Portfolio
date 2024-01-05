@@ -2,6 +2,7 @@ import About from '@/Components/About'
 import Hero from '@/Components/Hero'
 import MobileNavbar from '@/Components/MobileNavbar'
 import Navbar from '@/Components/Navbar'
+import Projects from '@/Components/Projects'
 import Services from '@/Components/Services'
 import Skills from '@/Components/Skills'
 import { useState } from 'react'
@@ -15,14 +16,17 @@ const HomePage = () => {
   return (
     <div className='overflow-x-hidden'>
 
-      <MobileNavbar closeNav={closeNavMobile} nav={navMobile}/>
+      <MobileNavbar closeNav={closeNavMobile} nav={navMobile} />
       <Navbar openNav={openNavMobile} />
-      <Hero/>
+      <Hero />
       <div className='relative z-30'>
-        <About/>
+        <About />
       </div>
-      <Services/>
-      <Skills/>
+      <Services />
+      <Skills />
+      <div className='relative z-30'>
+        <Projects />
+      </div>
 
     </div>
   )
