@@ -14,8 +14,7 @@ const About = () => {
                     <div className='mb-[3rem] flex items-center md:space-x-10'>
                         <span className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
                         <p className='text-[19px] text-slate-300 w-[80%]'>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi ex recusandae neque deleniti? Error laborum, officiis quasi earum nemo magni doloremque et.
-                        </p>
+                        Passionate full-stack JavaScript developer experienced in creating seamless web applications. Proficient in React, Node.js, and MongoDB, blending front-end finesse with powerful back-end functionality. A collaborative problem-solver with a commitment to clean, maintainable code. Committed to continuous learning and contributing to the tech community. Enthusiastic about innovation, seeking to craft intuitive user experiences that push boundaries.                        </p>
                     </div>
                 </div>
                 <div className='lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative'>
