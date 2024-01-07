@@ -13,7 +13,7 @@ const Services = () => {
                         <CodeBracketSquareIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
                         <h1 className="text-[20px] md:text-[30px] my-[1.5rem]"> Frontend</h1>
                         <p className="text-[15px] text-[#d3d2d2] font-normal">
-                        Skilled in crafting engaging user interfaces using HTML, CSS, and JavaScript. Proficient in React.js, Next.js for server-side rendering, and Angular for dynamic, responsive web applications. Utilize Tailwind CSS for efficient and highly customizable designs, ensuring rapid development without sacrificing flexibility. Prioritize accessibility and UX/UI best practices to deliver seamless user experiences. Committed to staying updated with emerging front-end technologies and trends.
+                            Skilled in React.js, Next.js for server-side rendering, and Tailwind CSS for highly customizable, rapid UI development, ensuring seamless user experiences while staying updated with evolving front-end trends.
 
                         </p>
                     </div>
