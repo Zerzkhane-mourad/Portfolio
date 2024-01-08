@@ -42,7 +42,6 @@ const Projects = () => {
 
                 }
 
-
             </div>
         </div>
     )
